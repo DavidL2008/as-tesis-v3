@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+  --main1: #515151;
+  --main2: #f9b313;
+  --main3: #707070;
+  --main4: #fff;
+  --main5: #f9b51b;
+  --main-text: #677f95;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+
+
+/* ======================== */
+/*          NAVBAR          */
+/* ======================== */
+.navbar {
+    max-width: auto;
+    /* background-color: transparent; */
+    transition: background-color 0.3s ease;
+  }
+  
+  nav,
+  .offcanvas {
+    background-color: var(--main1);
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 600;
+    color: var(--main2);
+    border-radius: 15px;
+    padding-left: 15px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: var(--main1);
+    background: var(--main2);
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: var(--main1);
+    background: var(--main2);
+  }
+  
+  .navbar-toggler,
+  .btn-close {
+    border: none;
+    border-color: transparent;
+  }
+  
+  .navbar-toggler:focus,
+  .btn-close:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .uil-bars {
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .navbar-scrolled {
+    background-color: var(--main1);
+  }
+  
+  
+
+
+.banner {
+    width: 100%;
+    /* Establece el tamaño máximo deseado */
+    /* max-height: 300px; */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda el tamaño máximo */
+    text-align: center; /* Centra verticalmente la imagen */
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle; /* Alinea verticalmente la imagen */
+}
+@media (max-width: 768px) {
+    .banner {
+        max-height: 200px; 
+        /* Ajusta el tamaño máximo para pantallas más pequeñas */
+        max-height: 300px; 
+    }
+    .banner img{
+        width: 100%;
+    }
+}
+
+
+/*==================FOOTER======================
+================================================*/
+
+.pie-pagina {
+    width: 100%;
+    background-color: #515151;
+  }
+  
+  .pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+  }
+  
+  .pie-pagina .grupo-1 .box {
+    text-align: center;
+  }
+  
+  .pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  
+  .pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+    border-radius: 50px;
+  }
+  
+  .pie-pagina .grupo-1 .red-social a:hover {
+    color: aqua;
+  }
+  
+  .pie-pagina .grupo-2 {
+    background-color: #0b0b0b57;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fdfdfd;
+  }
+  
+  .pie-pagina .grupo-2 small {
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .pie-pagina .grupo-1 {
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+      padding: 35px 0px;
+    }
+  }
+  
+
+  /*REDES SOCIALES*/
+  /*======================/
+  ===================/
+  SOCIAL MEDIA BUTTONS
+  /*==================/
+  =======================*/
+  
+  .social-row .icon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    color: var(--main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .social-row .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .social-row .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .social-row .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .social-row .icon:hover span,
+  .social-row .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .social-row .facebook:hover,
+  .social-row .facebook:hover .tooltip,
+  .social-row .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  
+  .social-row .twitter:hover,
+  .social-row .twitter:hover .tooltip,
+  .social-row .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  
+  .social-row .instagram:hover,
+  .social-row .instagram:hover .tooltip,
+  .social-row .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  
+  .social-row .github:hover,
+  .social-row .github:hover .tooltip,
+  .social-row .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  .social-row .youtube:hover,
+  .social-row .youtube:hover .tooltip,
+  .social-row .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+  
+  .social-row .tiktok:hover,
+  .social-row .tiktok:hover .tooltip,
+  .social-row .tiktok:hover .tooltip::before {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .social-row .libro:hover,
+  .social-row .libro:hover .tooltip,
+  .social-row .libro:hover .tooltip::before {
+    background-color: #0b0da1;
+    color: #ffffff;
+  }
+  
+  .fontawesomesvg {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+  }
+  
+  .social-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+
+
+  
+
+
+
+.input-bx {
+    position: relative;
+    /* width: 300px; */
+}
+
+.input-bx input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--main1);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    transition: 0.6s;
+}
+
+.input-bx span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    font-size: 1rem;
+    color:var(--main1);
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.input-bx input:valid ~ span,
+.input-bx input:focus ~ span {
+    color: var(--main1);
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65rem;
+    font-weight: 600;
+    padding: 0 10px;
+    background: #fff;
+    letter-spacing: 0.1rem;
+}
+
+.input-bx input:valid,
+.input-bx input:focus {
+    color: var(--main1);
+    border: 2px solid var(--main2);
+}
+
+
+
+
+
+.textarea1 {
+
+    border: 2px solid var(--main1);
+}
+
+
+.textarea1:focus {
+  border-color:transparent;
+  box-shadow: 0 0 0 0.1rem var(--main2);
+}
+
+
+
+button[type="submit"] {
+    background: var(--main1);
+    color: var(--main2);
+    border: 0;
+    padding: 14px 45px;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  
+button[type="submit"]:hover {
+    background: var(--main2);
+    color: var(--main1);
+  }
+  
+  
+  /*COLOR ASOCIADO*/
+.asoc{
+    background: #DEDEDE;
+    align-content: center;
+  }
+  
+  .letraAso{
+    color: rgba(118, 118, 118, 0.55);
+    font-size: 40px;
+    font-family: "Montserrat";
+    font-weight: 900;
+  }
+  
+  .imgAso{
+    opacity: 0.4;
+  }
