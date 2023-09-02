@@ -1517,7 +1517,7 @@ SOCIAL MEDIA BUTTONS
 @media (min-width: 1024px) {
 
   #hero .carousel-item {
-    background-size: contain;
+    background-size: cover;
     /* background-position: center; */
     background-position: right 10% bottom 45%;
     background-repeat: no-repeat;
