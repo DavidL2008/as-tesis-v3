@@ -1360,12 +1360,11 @@ SOCIAL MEDIA BUTTONS
 
 
 
-
 /**/
 #hero {
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: var(--main2);
   overflow: hidden;
   position: relative;
 }
@@ -1389,7 +1388,8 @@ SOCIAL MEDIA BUTTONS
 
 #hero .carousel-item {
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
+  background-position: right 35% bottom 45%;
   background-repeat: no-repeat;
 }
 
@@ -1510,6 +1510,21 @@ SOCIAL MEDIA BUTTONS
   background: #fff;
   color: #f9b313;
 }
+
+
+
+
+@media (min-width: 1024px) {
+
+  #hero .carousel-item {
+    background-size: contain;
+    /* background-position: center; */
+    background-position: right 10% bottom 45%;
+    background-repeat: no-repeat;
+  }
+  
+}
+
 
 
 
