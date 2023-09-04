@@ -808,9 +808,9 @@ s
 .dropdown {
   margin: 10px auto;
   /* Ajusta el margen vertical */
-  background-color: #515151;
+  background-color: var(--main1);
   color: white;
-  width: 400px;
+  width: 500px;
   border-radius: 30px;
 }
 
@@ -2116,7 +2116,7 @@ box-shadow: 0 0 0 0.1rem var(--main2);
 }
 
 .specials .details p {
-  color: #aaaaaa;
+  color: var(--main1);
 }
 
 .specials .details p:last-child {
@@ -2129,3 +2129,13 @@ box-shadow: 0 0 0 0.1rem var(--main2);
     padding: 15px;
   }
 }
+
+
+
+
+
+
+
+
+
+
