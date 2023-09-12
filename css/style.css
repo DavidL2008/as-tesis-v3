@@ -1154,6 +1154,7 @@ iframe {
 .pie-pagina {
   width: 100%;
   background-color: #515151;
+  color: #fff;
 }
 
 .pie-pagina .grupo-1 {
@@ -1679,7 +1680,7 @@ SOCIAL MEDIA BUTTONS
 
 
 /*COLOR ASOCIADO*/
-.asoc{
+/* .asoc{
   background: #DEDEDE;
   align-content: center;
 }
@@ -1693,7 +1694,39 @@ SOCIAL MEDIA BUTTONS
 
 .imgAso{
   opacity: 0.4;
+} */
+ .asoc {
+  background: #DEDEDE;
+  text-align: center;
+  padding: 30px 0;
 }
+
+/* Espacio entre texto e imagen predeterminado */
+
+/* #text-container {
+  margin-bottom: 20px; 
+} */
+/* 
+.letraAso {
+  color: rgba(118, 118, 118, 0.55);
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 900;
+  margin-left: 200px;
+}
+
+.imgAso {
+  opacity: 0.4;
+} */
+
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  #text-container {
+      margin-bottom: 10px; 
+
+  }
+} */
+
 
 /*SOBRE NOSOTROS*/
 .nosotros{
@@ -2129,6 +2162,120 @@ box-shadow: 0 0 0 0.1rem var(--main2);
     padding: 15px;
   }
 }
+
+
+
+
+
+
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Constructions Section
+--------------------------------------------------------------*/
+.constructions .card-item {
+  border: 1px solid rgba(82, 86, 94, 0.2);
+  background: #fff;
+  position: relative;
+  border-radius: 0;
+}
+
+.constructions .card-item .card-bg {
+  min-height: 300px;
+  background-size: cover;
+  background-position: center -60px;
+  background-repeat: no-repeat;
+}
+
+.constructions .card-item .card-body {
+  padding: 20px;
+}
+
+.constructions .card-item h4 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: var(--color-secondary);
+}
+
+.constructions .card-item p {
+  color: var(--color-secondary);
+  margin: 0;
+} 
+
+
+
+
+
+
 
 
 
