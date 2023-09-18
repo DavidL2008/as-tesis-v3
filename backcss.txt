@@ -237,20 +237,19 @@ nav,
 
 .navbar-nav .nav-link {
   font-weight: 600;
-  color: white;
+  color: var(--main2);
   border-radius: 15px;
   padding-left: 15px;
 }
 
 .navbar-nav .nav-link:hover {
-  color:white;
-  /* background: var(--main2); */
+  color: var(--main1);
+  background: var(--main2);
 }
 
 .navbar-nav .nav-link.active {
-  color: white;
-  /* background: var(--main2); */
-
+  color: var(--main1);
+  background: var(--main2);
 }
 
 .navbar-toggler,
@@ -274,52 +273,7 @@ nav,
   background-color: var(--main1);
 }
 
-.navbar-scrolled .navbar-nav .nav-link {
-  color: var(--main2);
-}
-
-.navbar-scrolled .navbar-toggler .uil-bars {
-  color: var(--main2);
-  
-}
-
-
-/* barras arriba del link barra de navegacion*/
-.navbar-nav .nav-link::before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: white;
-  transition: width 0.3s ease;
-  
-}
-
-.navbar-nav .nav-link:hover::before,
-.navbar-nav .nav-link.active::before {
-  width: 100%;
-}
-
-
-
-
-
-/* barras arriba del link  amarillo*/
-.navbar-scrolled .navbar-nav .nav-link::before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 2px;
-  background-color: var(--main2);
-  transition: width 0.3s ease;
-}
-
-.navbar-scrolled .navbar-nav .nav-link:hover::before,
-.navbar-scrolled .navbar-nav .nav-link.active::before {
-  width: 100%;
-}
-
-
+s
 /* =========================================== */
 
 /* ======================== */
@@ -2551,27 +2505,6 @@ box-shadow: 0 0 0 0.1rem var(--main2);
 .why-us .img-bg {
   min-height: 500px;
   background-size: cover;
-  background-position: 650px 0px;
-}
-@media screen and (max-width: 768px) {
-  .why-us .img-bg {
-    background-position: 480px 0px;
-  }
-}
-
-
-
-/* @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .why-us .img-bg {
-    background-position: 450px 0px; 
-  }
-} */
-
-
-@media screen and (min-width: 769px) and (max-width: 1199px) {
-  .why-us .img-bg {
-    background-position: -100px 0px; /* Ajusta la posición para tabletas (1199px de ancho) */
-  }
 }
 
 .why-us .slides {

@@ -86,17 +86,16 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-lg-end gap-3 flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <a id="nav-inicio" class="nav-link active" aria-current="page" href="#hero">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="#hero">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a id="nav-servicios" class="nav-link" href="#servicios">Servicios</a>
+                                <a class="nav-link" href="#servicios">Servicios</a>
                             </li>
-   
-                            <!-- <li class="nav-item">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#master">Masterclas</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#invetigacion">Investigación</a>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link" href="#why-us">Sobre Nosotros</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contacto</a>
@@ -159,17 +158,17 @@
                                         </h2>
                                         <p class="animate__animated animate__fadeInUp">"Abriendo Puertas al Éxito Académico: Tu Confianza en Nuestras Manos"</p>
                                         <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
-                                            <a class="btn-gray px-3 py-3  fs-6 fw-bolder" target="_blank" href=""
+                                            <a class="btn-gray px-3 py-3  fs-6 fw-bolder" target="_blank" href
                                                 data-bs-toggle="modal" data-bs-target="#exampleModal">
                                             <i class=" fs-5 text-white uil uil-thumbs-up"></i>
-                                            Asesoria
+                                                Suscríbete
                                             </a>
-                                            <!-- <a class="btn-yellow px-3 py-3  fs-6 fw-bolder"
+                                            <a class="btn-yellow px-3 py-3  fs-6 fw-bolder"
                                                 href="https://api.whatsapp.com/send?phone=123456789&text=Hola, bienvdenido a AS TESIS, gracias por comunicarte con nosotros"
                                                 target="_blank">
                                                 <i class="fs-5 fw-bolder uil uil-whatsapp text-white"></i>
                                                 Asesoria
-                                            </a> -->
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +207,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-5">
-                                        <h2 class="animate__animated animate__fadeInDown">Tenemos ofertas exclusivas para ti</h2>
+                                        <h2 class="animate__animated animate__fadeInDown">Oferta del mes</h2>
                                         <p class="animate__animated animate__fadeInUp"></p>
                                         <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
                                             <!-- <a class="btn-gray px-3 py-3  fs-6 fw-bolder" target="_blank" href
@@ -230,13 +229,13 @@
                     </div>
 
 
-                    <div class="carousel-item" style="background-image: url(img/PAGINA\ WEB-06.jpg)">
+                    <div class="carousel-item" style="background-image: url(img/PAGINA\ WEB-011.jpg)">
                         <div class="carousel-container">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-5">
                                         <h2 class="animate__animated animate__fadeInDown">Trabaja con nosotros</h2>
-                                        <p class="animate__animated animate__fadeInUp">"Unete a nuestro equipo"</p>
+                                        <p class="animate__animated animate__fadeInUp"></p>
                                         <div class="d-flex flex-wrap justify-content-center gap-2 mb-3">
                                             <a class="btn-gray px-3 py-3  fs-6 fw-bolder" target="_blank" href
                                                 data-bs-toggle="modal" data-bs-target="#trabajoModal">
@@ -290,9 +289,8 @@
                     </b></h3>
             </div>
             <div class="nsdescription">
-                <p class="text-justify">"Contamos con una amplia gama de servicios de investigación académica y profesional con la más alta calidad, proporcionados por asesores altamente competentes de todas las especialidades."
-                    <!-- <br> 
-                    altamente capacitados de todas las carreras</p> -->
+                <p class="text-justify">Contamos con diversos Servicios de Investigacion Academica<br>
+                    con la mejor calidad de la mano de Asesores <br> altamente capacitados de todas las carreras</p>
             </div>
 
         </section>
@@ -300,21 +298,18 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
 
-
                     <div class="swiper-slide ssl2">
                         <img src="img/PAGINA WEB_Mesa de trabajo 1.jpg" alt="">
-                    </div>
-  
-                    <div class="swiper-slide ssl2">
-                        <img src="img/PAGINA WEB-03.jpg" alt="">
                     </div>
                     <div class="swiper-slide ssl2">
                         <img src="img/PAGINA WEB-02.jpg" alt="">
                     </div>
                     <div class="swiper-slide ssl2">
+                        <img src="img/PAGINA WEB-03.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide ssl2">
                         <img src="img/servicios/Servicio Estadistico.png" alt="">
                     </div>
-                    
                 </div>
         </section>
 
@@ -385,9 +380,10 @@
                             <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center"
                                 data-aos="fade-up" data-aos-delay="100">
                                 <h3>Tesis Pregado</h3>
-                                <h5 class="fst-italic">"Eleva tu Trayectoria Académica"</h5>
-                                <p>
-                                    En nuestra plataforma, te ofrecemos recursos y orientación para ayudarte a completar con éxito este importante proyecto. Descubre cómo abordar investigaciones significativas y destacar en tu área de estudio.
+                                <p class="fst-italic">
+                                    Contamos con diversos servicios de investigación académica con la mejor calidad, de
+                                    la
+                                    mano de asesores altamente capacitados de todas las carreras
                                 </p>
 
                             </div>
@@ -397,24 +393,70 @@
                                     <ul class="dropdown">
                                         <li class="dropdown__list">
                                             <a href="" class="dropdown__link">
-                                                Ingeniería Y Arquitectura
+                                                Ingieneria
                                                 <i class='bx bxs-message-square-add' style="color: #f9b313;"></i>
                                                 <input type="checkbox" class="dropdown__check">
                                             </a>
                                             <div class="dropdown__content">
                                                 <ul class="dropdown__sub">
                                                     <li class="dropdown__li">
-                                                        <p class="dropdown__anchor">
-                                                            -Arquitectura <br>
-                                                            -Ingeniería Industrial
-                                                            <br>
-                                                            -Ingeniería Civil <br>
-                                                            -Ingeniería de Sistemas <br>
-                                                            -Ingeniería Mecanica <br>
-                                                            - Entre otras
+                                                        <p class="dropdown__anchor">Lorem ipsum dolor sit amet
+                                                            consectetur
+                                                            adipisicing elit. Maxime exercitationem id optio placeat
+                                                            reprehenderit veritatis corporis quae, vero vel quisquam, ab
+                                                            pariatur temporibus? Dolorem dolor numquam perferendis
+                                                            nostrum
+                                                            ab rerum.
                                                         </p>
                                                     </li>
                                                 </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown">
+                                        <li class="dropdown__list">
+                                            <a href="" class="dropdown__link">
+                                                Administracion
+                                                <i class='bx bxs-message-square-add' style="color: #f9b313;"></i>
+                                                <input type="checkbox" class="dropdown__check">
+                                            </a>
+                                            <div class="dropdown__content">
+                                                <ul class="dropdown__sub">
+                                                    <li class="dropdown__li">
+                                                        <p class="dropdown__anchor">Lorem ipsum dolor sit amet
+                                                            consectetur
+                                                            adipisicing elit. Maxime exercitationem id optio placeat
+                                                            reprehenderit veritatis corporis quae, vero vel quisquam, ab
+                                                            pariatur temporibus? Dolorem dolor numquam perferendis
+                                                            nostrum
+                                                            ab rerum.
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown">
+                                        <li class="dropdown__list">
+                                            <a href="" class="dropdown__link">
+                                                Psicologia
+                                                <i class='bx bxs-message-square-add' style="color: #f9b313;"></i>
+                                                <input type="checkbox" class="dropdown__check">
+                                            </a>
+                                            <div class="dropdown__content">
+                                                <ul class="dropdown__sub">
+                                                    <li class="dropdown__li">
+                                                        <p class="dropdown__anchor">Lorem ipsum dolor sit amet
+                                                            consectetur
+                                                            adipisicing elit. Maxime exercitationem id optio placeat
+                                                            reprehenderit veritatis corporis quae, vero vel quisquam, ab
+                                                            pariatur temporibus? Dolorem dolor numquam perferendis
+                                                            nostrum
+                                                            ab rerum.
+                                                        </p>
+                                                    </li>
+                                                </ul>
+
                                             </div>
                                         </li>
                                     </ul>
@@ -428,59 +470,13 @@
                                             <div class="dropdown__content">
                                                 <ul class="dropdown__sub">
                                                     <li class="dropdown__li">
-                                                        <p class="dropdown__anchor">
-                                                            - Derecho <br>
-                                                            - Comunicaciones<br>
-                                                            - Educacion<br>
-                                                            - Psicologia<br>
-                                                            - Adminstracion en Hoteleria y Turismo <br>
-                                                            - Entre Otras
-                                                        </p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="dropdown">
-                                        <li class="dropdown__list">
-                                            <a href="" class="dropdown__link">
-                                                Ciencias Empresariales
-                                                <i class='bx bxs-message-square-add' style="color: #f9b313;"></i>
-                                                <input type="checkbox" class="dropdown__check">
-                                            </a>
-                                            <div class="dropdown__content">
-                                                <ul class="dropdown__sub">
-                                                    <li class="dropdown__li">
-                                                        <p class="dropdown__anchor">
-                                                            - Administracion <br>
-                                                            - Economia<br>
-                                                            - Finanzas<br>
-                                                            - Marketing<br>
-                                                            - Negocios Internacinales<br>
-                                                            - Entre Otras<br>
-                                                        </p>
-                                                    </li>
-                                                </ul>
-
-                                            </div>
-                                        </li>
-                                    </ul>
-                                    <ul class="dropdown">
-                                        <li class="dropdown__list">
-                                            <a href="" class="dropdown__link">
-                                                Ciencias de la Salud
-                                                <i class='bx bxs-message-square-add' style="color: #f9b313;"></i>
-                                                <input type="checkbox" class="dropdown__check">
-                                            </a>
-                                            <div class="dropdown__content">
-                                                <ul class="dropdown__sub">
-                                                    <li class="dropdown__li">
-                                                        <p class="dropdown__anchor">
-                                                            -Medicina <br>
-                                                            -Biologia<br>
-                                                            -Enfermeria<br>
-                                                            -Estomatologia<br>
-                                                            -Entre Otros<br>
+                                                        <p class="dropdown__anchor">Lorem ipsum dolor sit amet
+                                                            consectetur
+                                                            adipisicing elit. Maxime exercitationem id optio placeat
+                                                            reprehenderit veritatis corporis quae, vero vel quisquam, ab
+                                                            pariatur temporibus? Dolorem dolor numquam perferendis
+                                                            nostrum
+                                                            ab rerum.
                                                         </p>
                                                     </li>
                                                 </ul>
@@ -498,16 +494,18 @@
                             <div
                                 class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                                 <h3>Tesis Posgrado</h3>
-                                <h5 class="fst-italic">"Impulsa tu Carrera Profesional"</h5>
-                                <p>
-                                    Descubre la forma de enfrentar proyectos de investigación de relevancia, presentar hallazgos de manera efectiva y contribuir al conocimiento en tu campo, para destacarte como un experto en tu disciplina y avanzar en tu carrera.                                </p>
+                                <p class="fst-italic">
+                                    Contamos con diversos servicios de investigación académica con la mejor calidad, de
+                                    la
+                                    mano de asesores altamente capacitados de todas las carreras
+                                </p>
                             </div>
                             <div class="col-lg-6 order-2 order-lg-2 text-center">
                                 <div class="dropdown-container">
                                     <ul class="dropdown">
                                         <li class="dropdown__list">
                                             <a href="" class="dropdown__link">
-                                                Ingeniería
+                                                Ingieneria
                                                 <i class='bx bxs-message-square-add' style="color: #f9b313;"></i>
                                                 <input type="checkbox" class="dropdown__check">
                                             </a>
@@ -606,165 +604,26 @@
                                 class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                                 <h3>Turnitin</h3>
                                 <p class="fst-italic">
-                                    Nuestro centro de investigación utiliza Turnitin, un programa antiplagio, para evitar el plagio en tesis. También ofrecemos el servicio de reducción de similitud, empleando técnicas de parafraseo y citado apropiado en diferentes estilos como APA, ISO o Vancouver.
+                                    Contamos con diversos servicios de investigación académica con la mejor calidad, de
+                                    la
+                                    mano de asesores altamente capacitados de todas las carreras
                                 </p>
-                            </div>
-                            <div class="col-lg-6 order-2 order-lg-2 text-center">
-                                <img src="img/default-turnitin-image.png" class="img-fluid" alt="">
                             </div>
                         </div>
                     </div><!-- End tab content item -->
 
                     <div class="tab-pane" id="tab-4">
                         <div class="row">
-                            <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                            <div
+                                class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
                                 <h3>Proyectos de investigación</h3>
                                 <p class="fst-italic">
-                                    "Nuestros servicios están diseñados para satisfacer tus necesidades académicas, ofreciendo soluciones de redacción y asesoramiento que abarcan desde la investigación en profundidad y la presentación estructurada hasta la expresión creativa y el análisis crítico."
+                                    Contamos con diversos servicios de investigación académica con la mejor calidad, de
+                                    la
+                                    mano de asesores altamente capacitados de todas las carreras
                                 </p>
                             </div>
-                            <div class="col-lg-6 order-2 order-lg-2 text-center">
-                                <ul class="dropdown">
-                                    <li class="dropdown__list">
-                                        <a class="dropdown__link">
-                                            Tesinas
-                                            <!-- <i class='bx bxs-message-square-add' style="color: #f9b313;"></i> -->
-                                            <!-- <input type="checkbox" class="dropdown__check"> -->
-                                        </a>
-                                        <!-- <div class="dropdown__content">
-                                            <ul class="dropdown__sub">
-                                                <li class="dropdown__li">
-                                                    <p class="dropdown__anchor">Lorem ipsum dolor sit amet
-                                                        consectetur
-                                                        adipisicing elit. Maxime exercitationem id optio placeat
-                                                        reprehenderit veritatis corporis quae, vero vel quisquam, ab
-                                                        pariatur temporibus? Dolorem dolor numquam perferendis
-                                                        nostrum
-                                                        ab rerum.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                                <ul class="dropdown">
-                                    <li class="dropdown__list">
-                                        <a  class="dropdown__link">
-                                            Monografías
-                                            <!-- <i class='bx bxs-message-square-add' style="color: #f9b313;"></i> -->
-                                            <!-- <input type="checkbox" class="dropdown__check"> -->
-                                        </a>
-                                        <!-- <div class="dropdown__content">
-                                            <ul class="dropdown__sub">
-                                                <li class="dropdown__li">
-                                                    <p class="dropdown__anchor">Lorem ipsum dolor sit amet
-                                                        consectetur
-                                                        adipisicing elit. Maxime exercitationem id optio placeat
-                                                        reprehenderit veritatis corporis quae, vero vel quisquam, ab
-                                                        pariatur temporibus? Dolorem dolor numquam perferendis
-                                                        nostrum
-                                                        ab rerum.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                                <ul class="dropdown">
-                                    <li class="dropdown__list">
-                                        <a  class="dropdown__link">
-                                            Artículos científicos
-                                            <!-- <i class='bx bxs-message-square-add' style="color: #f9b313;"></i> -->
-                                            <!-- <input type="checkbox" class="dropdown__check"> -->
-                                        </a>
-                                        <!-- <div class="dropdown__content">
-                                            <ul class="dropdown__sub">
-                                                <li class="dropdown__li">
-                                                    <p class="dropdown__anchor">Lorem ipsum dolor sit amet
-                                                        consectetur
-                                                        adipisicing elit. Maxime exercitationem id optio placeat
-                                                        reprehenderit veritatis corporis quae, vero vel quisquam, ab
-                                                        pariatur temporibus? Dolorem dolor numquam perferendis
-                                                        nostrum
-                                                        ab rerum.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                                <ul class="dropdown">
-                                    <li class="dropdown__list">
-                                        <a  class="dropdown__link">
-                                            Ensayos
-                                            <!-- <i class='bx bxs-message-square-add' style="color: #f9b313;"></i> -->
-                                            <!-- <input type="checkbox" class="dropdown__check"> -->
-                                        </a>
-                                        <!-- <div class="dropdown__content">
-                                            <ul class="dropdown__sub">
-                                                <li class="dropdown__li">
-                                                    <p class="dropdown__anchor">Lorem ipsum dolor sit amet
-                                                        consectetur
-                                                        adipisicing elit. Maxime exercitationem id optio placeat
-                                                        reprehenderit veritatis corporis quae, vero vel quisquam, ab
-                                                        pariatur temporibus? Dolorem dolor numquam perferendis
-                                                        nostrum
-                                                        ab rerum.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                                <ul class="dropdown">
-                                    <li class="dropdown__list">
-                                        <a  class="dropdown__link">
-                                           Informe de Prácticas
-                                            <!-- <i class='bx bxs-message-square-add' style="color: #f9b313;"></i> -->
-                                            <!-- <input type="checkbox" class="dropdown__check"> -->
-                                        </a>
-                                        <!-- <div class="dropdown__content">
-                                            <ul class="dropdown__sub">
-                                                <li class="dropdown__li">
-                                                    <p class="dropdown__anchor">Lorem ipsum dolor sit amet
-                                                        consectetur
-                                                        adipisicing elit. Maxime exercitationem id optio placeat
-                                                        reprehenderit veritatis corporis quae, vero vel quisquam, ab
-                                                        pariatur temporibus? Dolorem dolor numquam perferendis
-                                                        nostrum
-                                                        ab rerum.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                                <ul class="dropdown">
-                                    <li class="dropdown__list">
-                                        <a class="dropdown__link">
-                                           Planes de Negocio
-                                            <!-- <i class='bx bxs-message-square-add' style="color: #f9b313;"></i> -->
-                                            <!-- <input type="checkbox" class="dropdown__check"> -->
-                                        </a>
-                                        <!-- <div class="dropdown__content">
-                                            <ul class="dropdown__sub">
-                                                <li class="dropdown__li">
-                                                    <p class="dropdown__anchor">Lorem ipsum dolor sit amet
-                                                        consectetur
-                                                        adipisicing elit. Maxime exercitationem id optio placeat
-                                                        reprehenderit veritatis corporis quae, vero vel quisquam, ab
-                                                        pariatur temporibus? Dolorem dolor numquam perferendis
-                                                        nostrum
-                                                        ab rerum.
-                                                    </p>
-                                                </li>
-                                            </ul>
-                                        </div> -->
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
-                        
                     </div><!-- End tab content item -->
                     <!-- End tab content item -->
                 </div>
@@ -773,82 +632,7 @@
     <!--Fin Seccion de Servicios-->
 
 
-    <section id="why-us" class="why-us">
-        <div class="container" data-aos="fade-up">
 
-          <div class="section-header">
-            <!-- <h2>Why Choose Us</h2> -->
-            <h2 class="title-section" id="servicios"><b>Sobre</b>
-                <b>
-                    <font font-weight="800" ; color="#f9b313">Nosotros</font>
-                </b>
-            </h2>
-
-          </div>
-
-          <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-xl-5 img-bg" style="background-image: url('img/PAGINA\ WEB-011.jpg'); "></div>
-            <div class="col-xl-7 slides  position-relative">
-
-              <div class="slides-1 swiper1">
-                <div class="swiper-wrapper">
-
-                  <div class="swiper-slide">
-                    <div class="item">
-                      <h3 class="mb-3">¿Quienes somos?</h3>
-                      <!-- <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4> -->
-                      <p>Somos AS TESIS, una firma comprometida con la asesoría de proyectos de investigación e inversión en los ámbitos académico y empresarial. Nuestra misión es ofrecer servicios de alta calidad, respetando la ética y la confidencialidad, para satisfacer plenamente las necesidades de nuestros clientes.
-                        En busca de liderazgo nacional para 2025, en AS TESIS aspiramos a ser el referente confiable en asesoría y consultoría en proyectos de investigación e inversión, promoviendo estándares de calidad, competitividad, productividad, innovación y liderazgo. Contamos con un equipo de profesionales altamente calificados que te guiarán hacia el éxito, convirtiendo tus ideas en resultados sólidos. Confía en nosotros para llevar tus proyectos al siguiente nivel.</p>
-                    </div>
-                  </div><!-- End slide item -->
-
-                  <div class="swiper-slide">
-                    <div class="item">
-                      <h3 class="mb-3">Nuestra Vision</h3>
-                      <!-- <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4> -->
-                      <p>Al 2025 ser un referente a nivel nacional de
-                        asesoría y/o
-                        consultoría en proyectos de investigación e inversión con miras a
-                        expandirnos en nuevos rubros, alcanzando nuevos paradigmas de desarrollo
-                        que
-                        impliquen calidad, competitividad, productividad, innovación y
-                        liderazgo.</p>
-                    </div>
-                  </div><!-- End slide item -->
-
-                  <div class="swiper-slide">
-                    <div class="item">
-                      <h3 class="mb-3">Nuestra Misión</h3>
-                      <!-- <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4> -->
-                      <p>Somos una empresa dedicada a la asesoría de
-                        proyectos de
-                        investigación e inversión a nivel académico y empresarial de calidad,
-                        comprometida a satisfacer las necesidades de los clientes con ética y
-                        confidencialidad.</p>
-                    </div>
-                  </div><!-- End slide item -->
-
-                  <!-- <div class="swiper-slide">
-                    <div class="item">
-                      <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
-                      <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est. Eum similique neque autem ut.</h4>
-                      <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
-                    </div>
-                  </div> -->
-                  <!-- End slide item -->
-
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
-            </div>
-
-          </div>
-
-        </div>
-      </section><!-- End Why Choose Us Section -->
 
 
         <section class="mt-1">
@@ -901,7 +685,7 @@
                                     <i class="bi bi-card-checklist"></i>
                                 </div>
                                 <h5>
-                                    Asesorías semanales
+                                    Asesorias semanales
                                 </h5>
                             </div>
                         </div>
@@ -927,7 +711,7 @@
                     <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
                         <div class="count-box">
                             <i class="bi bi-journal-richtext"></i>
-                            <span id="numero_proyectos" class="bi-plus text-center fs-3">2000</span>
+                            <span id="numero_proyectos" class="bi-plus text-center fs-3">1800</span>
                             <p class="fs-5">Proyectos asesorados</p>
                         </div>
                     </div>
@@ -1055,9 +839,10 @@
         <!--Fin Seccion experiencia-->
 
         <!--Masterclass Seccion-->
-        <!-- <section class="nssection">
+        <section class="nssection">
             <div class="containerv">
                 <div class="conten">
+                    <!-- <h1><i class="fa-brands fa-youtube"></i>MasterClass</h1> -->
                     <div class="masterclass">
                         <img src="img/AsTesisIcono.png" alt="Masterclass"  width="50px" style="margin-bottom: 30px;">
                         <h1>MasterClass</h1>
@@ -1070,6 +855,7 @@
                 </div>
 
                 <div class="grupo">
+                    <!-- <h1 class="title1"><i class="fa-brands fa-js-square"></i>Clase 1 </h1> -->
                     <div class="contvideos">
                         <div class="video">
                             <a href="https://www.youtube.com/watch?v=3XA8X4cSoSA" class="glightbox play-btn"><img src="img/maxresdefault.jpg" class="img-fluid" alt=""></a>
@@ -1086,7 +872,7 @@
                 </div>
             </div>
 
-        </section> -->
+        </section>
 
         <!-- <section id="gallery">
 
@@ -1364,7 +1150,82 @@
 
 
           <br>
+          <section id="why-us" class="why-us">
+            <div class="container" data-aos="fade-up">
 
+              <div class="section-header">
+                <!-- <h2>Why Choose Us</h2> -->
+                <h2 class="title-section" id="servicios"><b>Sobre</b>
+                    <b>
+                        <font font-weight="800" ; color="#f9b313">Nosotros</font>
+                    </b>
+                </h2>
+
+              </div>
+
+              <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
+
+                <div class="col-xl-5 img-bg" style="background-image: url('img/PAGINA\ WEB-011.jpg'); background-position: 650px 0px;"></div>
+                <div class="col-xl-7 slides  position-relative">
+
+                  <div class="slides-1 swiper1">
+                    <div class="swiper-wrapper">
+
+                      <div class="swiper-slide">
+                        <div class="item">
+                          <h3 class="mb-3">¿Quienes somos?</h3>
+                          <!-- <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4> -->
+                          <p>Somos AS TESIS, una firma comprometida con la asesoría de proyectos de investigación e inversión en los ámbitos académico y empresarial. Nuestra misión es ofrecer servicios de alta calidad, respetando la ética y la confidencialidad, para satisfacer plenamente las necesidades de nuestros clientes.
+                            En busca de liderazgo nacional para 2025, en AS TESIS aspiramos a ser el referente confiable en asesoría y consultoría en proyectos de investigación e inversión, promoviendo estándares de calidad, competitividad, productividad, innovación y liderazgo. Contamos con un equipo de profesionales altamente calificados que te guiarán hacia el éxito, convirtiendo tus ideas en resultados sólidos. Confía en nosotros para llevar tus proyectos al siguiente nivel.</p>
+                        </div>
+                      </div><!-- End slide item -->
+
+                      <div class="swiper-slide">
+                        <div class="item">
+                          <h3 class="mb-3">Nuestra Vision</h3>
+                          <!-- <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4> -->
+                          <p>Al 2025 ser un referente a nivel nacional de
+                            asesoría y/o
+                            consultoría en proyectos de investigación e inversión con miras a
+                            expandirnos en nuevos rubros, alcanzando nuevos paradigmas de desarrollo
+                            que
+                            impliquen calidad, competitividad, productividad, innovación y
+                            liderazgo.</p>
+                        </div>
+                      </div><!-- End slide item -->
+
+                      <div class="swiper-slide">
+                        <div class="item">
+                          <h3 class="mb-3">Nuestra Mision</h3>
+                          <!-- <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4> -->
+                          <p>Somos una empresa dedicada a la asesoría de
+                            proyectos de
+                            investigación e inversión a nivel académico y empresarial de calidad,
+                            comprometida a satisfacer las necesidades de los clientes con ética y
+                            confidencialidad.</p>
+                        </div>
+                      </div><!-- End slide item -->
+
+                      <!-- <div class="swiper-slide">
+                        <div class="item">
+                          <h3 class="mb-3">Necessitatibus suscipit non voluptatem quibusdam</h3>
+                          <h4 class="mb-3">Tempora quos est ut quia adipisci ut voluptas. Deleniti laborum soluta nihil est. Eum similique neque autem ut.</h4>
+                          <p>Ut rerum et autem vel. Et rerum molestiae aut sit vel incidunt sit at voluptatem. Saepe dolorem et sed voluptate impedit. Ad et qui sint at qui animi animi rerum.</p>
+                        </div>
+                      </div> -->
+                      <!-- End slide item -->
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+
+              </div>
+
+            </div>
+          </section><!-- End Why Choose Us Section -->
 
 
 
@@ -1387,7 +1248,7 @@
             <div class="container">
 
                 <div class="section-header">
-                    <h2 class="title-section" id="servicios"><b>Contác<font font-weight="800" ; color="#f9b313">tanos</font>
+                    <h2 class="title-section" id="servicios"><b>Contac<font font-weight="800" ; color="#f9b313">tanos</font>
                     </b>
                 </h2>
                 </div>
@@ -1421,7 +1282,7 @@
                             <div class="info-item d-flex">
                                 <i class="bi bi-phone flex-shrink-0"></i>
                                 <div>
-                                    <h4>Teléfono:</h4>
+                                    <h4>Telefono:</h4>
                                     <div>
                                         <p>+51 984 297 207</p>
                                         <p>+51 975 733 304</p>
@@ -1494,15 +1355,15 @@
                                         required> -->
                                         <div class="input-bx">
                                             <input type="text" name="telefono1" required/>
-                                            <span>Teléfono 1</span>
+                                            <span>Telefono 1</span>
                                         </div>
                                 </div>
                                 <div class="col-md-6 form-group mt-2 mt-md-0">
                                     <!-- <input type="text" class="form-control" name="telefono2"
                                         placeholder="Telefono2-Opcional"> -->
                                         <div class="input-bx">
-                                            <input type="text" name="telefono2" required="false"/>
-                                            <span>Teléfono 2</span>
+                                            <input type="text" name="telefono2" required/>
+                                            <span>Telefono2</span>
                                         </div>
                                 </div>
                             </div>
@@ -1548,7 +1409,7 @@
                                     <select class="form-select" name="carreraContacto" id="">
                                         <OPTION hidden selected>Elija su Facultad...</OPTION>
                                         <option value="Humanidades">Humanidades</option>
-                                        <option value="Ingenieria">Ingeniería</option>
+                                        <option value="Ingenieria">Ingenieria</option>
                                         <option value="Ciencias de la Salud">Ciencias de la salud</option>
                                         <option value="Empresariales">Empresariales</option>
                                     </select>
@@ -1693,6 +1554,8 @@
 
 
 
+
+
 <!-- <section class="">
     <div class="asoc container-fluid">
         <div class="row text-center p-3 ">
@@ -1743,23 +1606,24 @@
                         <span class="fs-5">Años de experiencia</span></p>
                         <br>
                         <p class="d-flex flex-column text-center">
-                            <span id="numero_proyectos" class="bi-plus text-center fs-3">2000</span>
+                            <span id="numero_proyectos" class="bi-plus text-center fs-3">1800</span>
                             <span class="fs-5">Proyectos asesorados</span>
                         </p>
                   </div>
 
                   <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Menu</h4>
+                    <h4>menu</h4>
                     <ul>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#hero">Inicio</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#servicios">Servicios</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#why-us">Sobre Nosotros</a></li>
-                      <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contáctanos</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="#">MasterCalss</a></li>
+                      <li><i class="bi bi-chevron-right"></i> <a href="#">investigación</a></li>
                     </ul>
                   </div>
 
                   <div class="col-lg-3 col-md-6 footer-contact">
-                    <h4>Contáctanos</h4>
+                    <h4>Contactanos</h4>
                     <p>
                         <a href="#" class="c-llamar" style="color: white;">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -1937,7 +1801,7 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-3 fw-bolder" id="reclamoModalLabel">Libro de Reclamaciones</h1>
+                        <h1 class="modal-title fs-3 fw-bolder" id="reclamoModalLabel">Libro de reclamacion</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div>
@@ -1977,7 +1841,7 @@
                                 <div class="col-md-6 form-group mt-3 mt-md-0">
                                     <div class="input-bx">
                                         <input type="text" name="direccion" required/>
-                                        <span>Dirección</span>
+                                        <span>Direccion</span>
                                     </div>
                                 </div>
                             </div>
@@ -2047,7 +1911,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-3 fw-bolder" id="trabajoModalLabel">Oferta Laboral para Asesores de Investigación Academica y Profesional</h1>
+                <h1 class="modal-title fs-3 fw-bolder" id="trabajoModalLabel">Oferta Laboral para Asesores de Investigación & Profesionales de distintas especialidades</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div>
@@ -2058,13 +1922,11 @@
                 <form class="row g-3" method="POST" id="trabajoFormulario" action="./php/trabajo.php" enctype="multipart/form-data">
                     <div class="mb-1">
                         <h3 style="color: #f9b313;"><strong>Requisitos</strong></h3>
-                        <h2 class="modal-title fs-6">- Amplio conocimiento en su especialidad.
+                        <h2 class="modal-title fs-6">- Amplio conocimineto en su especialidad
                         </h2>
-                        <h2 class="modal-title fs-6">- Conocimientos en Metodología de la Investigación
+                        <h2 class="modal-title fs-6">- Conocimientos en Metodologia de la Investigacion
                         </h2>
-                        <h2 class="modal-title fs-6">- Experiencia Mínima de 6 meses
-                        </h2>
-                        <h2 class="modal-title fs-6">- Habilidades de comunicación y orientación
+                        <h2 class="modal-title fs-6">- Experiencia Minima de 6 meses
                         </h2>
                         <br>
                     </div>
@@ -2103,11 +1965,11 @@
                     <div class="row">
                         <div class="col-md-12 form-group">
                             <select class="form-select" name="especialidad" id="">
-                                <OPTION hidden selected>Facultades</OPTION>
-                                <option value="Ingeniería">Ingeniería y Arquitectura</option>
+                                <OPTION hidden selected>Especialidad</OPTION>
+                                <option value="Ingieneria">Ingieneria</option>
                                 <option value="Humanidades">Humanidades</option>
-                                <option value="Empresariales">Ciencias Empresariales</option>
-                                <option value="Salud">Ciencias de la Salud</option>
+                                <option value="Empresariales">Empresariales</option>
+                                <option value="Salud">Salud</option>
 
                             </select>
                         </div>
@@ -2116,8 +1978,6 @@
                     <div class="row">
                         <div class="col-md-12 form-group">
                             <br>
-                            <!-- adjusntar cv -->
-                            <p>Adjunta tu CV</p>
                             <!-- <input required name="cv" id=""  class="form-control form-control-sm" type="file"> -->
                             <input class="form-control form-control-sm" type="file" name="cv" id="cv" accept=".pdf,.doc,.docx" required>
 
@@ -2415,24 +2275,6 @@
   });
 
   </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 
