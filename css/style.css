@@ -608,7 +608,7 @@ nav,
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 100px;
+  padding-right: 300px;
 }
 
 .title-section {
@@ -720,7 +720,7 @@ nav,
 .features .tab-pane ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: var(--color-primary);
+  color: var(--main2);
 }
 
 .features .tab-pane p:last-child {
