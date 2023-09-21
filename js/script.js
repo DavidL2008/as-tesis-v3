@@ -47,7 +47,7 @@ function startCounting() {
   var interval2 = setInterval(function() {
     counter2.text(count2);
 
-    if (count2 === 1800) {
+    if (count2 === 2000) {
       clearInterval(interval2);
     }
 

@@ -608,7 +608,7 @@ nav,
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 300px;
+  padding-right: 150px;
 }
 
 .title-section {
@@ -902,8 +902,9 @@ nav,
 .dropdown__anchor {
   padding: 1em 0;
   color: white;
-  display: inline-block;
+  /* display: inline-block; */
   text-decoration: none;
+  text-align: left;
 }
 
 .dropdown__link i {
@@ -1614,20 +1615,22 @@ SOCIAL MEDIA BUTTONS
   font-size: 50px;
 }
 
-.beneficios .icon-box h5 {
+.beneficios .icon-box h6 {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 19px;
 }
 
-.beneficios .icon-box h5 {
+.beneficios .icon-box h6 {
   color: #282828;
   transition: ease-in-out 0.3s;
 }
 
-.beneficios .icon-box:hover {
-  transform: translateY(-10px);
-  border-color: var(--main1);
+.beneficios .icon-box:hover .icon{
+  background: var(--main2);
+  color: var(--main1);
+  /* transform: translateY(-10px);
+  border-color: var(--main1); */
 }
 
 /* .beneficios .icon-box:hover h5 {
@@ -2583,6 +2586,10 @@ box-shadow: 0 0 0 0.1rem var(--main2);
   font-weight: 700;
   color: var(--main2);
 }
+.why-us h6 {
+
+  color: var(--main2);
+}
 
 .why-us h4 {
   font-size: 18px;
@@ -2642,4 +2649,23 @@ box-shadow: 0 0 0 0.1rem var(--main2);
 
 .page-about .why-us {
   padding: 0 0 80px 0;
+}
+
+
+.why-us ul {
+  list-style: none;
+
+}
+
+/**/
+/* .features .tab-pane ul li {
+  padding-top: 0px;
+} */
+
+
+.why-us ul i {
+  /* font-size: 20px;
+  padding-right: 4px; */
+  color: var(--main2);
+  
 }
